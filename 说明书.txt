@@ -1,0 +1,23 @@
+1.下载必要的模块
+创建项目： npm create vite@latest my-vue-app -- --template vue
+下载element-plus： npm install element-plus --save
+下载路由： npm install vue-router
+下载pinia： npm install pinia -D
+下载图标：npm i @element-plus/icons-vue -s
+下载less：npm i less
+下载axios：npm install axios
+下载mockj:npm install mockjs -D
+2.路由配置
+src/router/index.js(路由配置)
+src/views/路由组件(先行Container 布局容器)
+src/stores/index.js(使用pinia共享数据)
+src/assets/images/图片
+src/api/mock.js(拦截的路径，方法和假数据的配置)
+src/api/mockData/文件的假数据名（编写数据）
+样式使用less
+3.UI设计
+https://element-plus.org/zh-CN/guide/quickstart.html
+4.优化
+使用mock制造假数据
+axio二次封装    //https://blog.csdn.net/qq_48968669/article/details/124356249
+5.数据交互升级引入配置
