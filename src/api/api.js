@@ -2,6 +2,7 @@
  * 整个api的统一管理
  */
 
+import { mock } from "mockjs";
 import request from "./request";
 
 // 请求左页的表格数据
@@ -11,7 +12,13 @@ import request from "./request";
 export default {
     getTableData(){
         return request({
-            url:"https://apifoxmock.com/m1/4068509-0-default/api/home/getTable",
+            url:"/home/getTable",
+            method:"get",
+        })
+    },
+    getCountData(){
+        return request({
+            url:"/home/getCountData",
             method:"get",
         })
     }

@@ -10,7 +10,7 @@ import router from './router'
 import { createPinia } from 'pinia'
 const pinia = createPinia()
 //引入mock.js ；拦截数据
-import "@/api/mock.js"
+// import "@/api/mock.js"
 // 引入api.js
 import api from '@/api/api'
 
